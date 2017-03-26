@@ -1,0 +1,32 @@
+<resources>
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowFullscreen">true</item>
+  </style>
+
+  <style name="MyTheme" parent="MyTheme.Base">
+  </style>
+
+  <style name="MyTheme.Splash" parent ="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/splash_screen</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowActionBar">true</item>
+  </style>
+
+  <style name="MyTheme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@color/transparent</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+
+  <style name="LinearProgress" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorAccent">@color/barColor</item>
+    <item name="android:progressBackgroundTint">@color/barColorTwo</item>
+  </style>
+
+</resources>

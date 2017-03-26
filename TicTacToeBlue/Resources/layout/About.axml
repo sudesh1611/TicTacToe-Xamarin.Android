@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:background="#6495ED">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#6495ED"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="0dp"
+            android:paddingBottom="0dp">
+            <TextView
+                android:text="TicTacToe Blue"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="23dp"
+                android:paddingBottom="0dp"
+                android:layout_marginBottom="0dp"
+                android:textStyle="normal"
+                android:typeface="normal"
+                android:layout_marginTop="160dp" />
+            <TextView
+                android:text="Version 10.1.2017"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:paddingBottom="0dp"
+                android:layout_marginBottom="0dp"
+                android:textStyle="normal"
+                android:typeface="normal"
+                android:id="@+id/versionTextView" />
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:src="@drawable/logoinverted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView1"
+                android:layout_gravity="center" />
+            <TextView
+                android:text="Developed By Sudeshh"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:paddingBottom="0dp"
+                android:layout_marginBottom="0dp"
+                android:textStyle="normal"
+                android:typeface="normal"
+                android:id="@+id/textView1"
+                android:layout_marginTop="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
